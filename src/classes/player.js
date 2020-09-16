@@ -33,7 +33,7 @@ class Player {
             this.velocity.x = 0;
             this.velocity.y = 0;
         };
-        this.img = p5.loadImage('.../../assets/characters/arrow.png');
+        this.img = p5.loadImage('../../assets/characters/arrow.png');
         data.players.push(this);
     }
 

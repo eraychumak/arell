@@ -17,7 +17,7 @@ class Pause extends Screen {
 
     preload() {
         new Button(this.name, "quit", 2, 1.2, 50, 200, "[Q] - QUIT");
-        new Sound(this.name, "ambient", ".../../assets/sounds/default_ambient.mp3", true);
+        new Sound(this.name, "ambient", "../../assets/sounds/default_ambient.mp3", true);
         super.preload();
     }
 

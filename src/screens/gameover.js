@@ -24,7 +24,7 @@ class Gameover extends Screen {
     preload() {
         new Button(this.name, "quit", 3, 1.2, 50, 250, "[Q] - QUIT");
         new Button(this.name, "restart", 1.5, 1.2, 50, 250, "[R] - RESTART");
-        new Sound(this.name, "ambient", ".../../assets/sounds/gameover_screen.wav", true);
+        new Sound(this.name, "ambient", "../../assets/sounds/gameover_screen.wav", true);
         super.preload();
     }
 

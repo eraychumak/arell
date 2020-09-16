@@ -22,7 +22,7 @@ class Options extends Screen {
         new Button(this.name, "fps", 1.6, 2, 50, 250, "[F] - FPS");
         new Button(this.name, "timer", 4, 1.5, 50, 250, "[T] - TIMER");
         new Button(this.name, "highscore", 2.28, 1.5, 50, 250, "[H] - HIGHSCORE");
-        new Sound(this.name, "ambient", ".../../assets/sounds/default_ambient.mp3", true);
+        new Sound(this.name, "ambient", "../../assets/sounds/default_ambient.mp3", true);
         super.preload();
     }
 
