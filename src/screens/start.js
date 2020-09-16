@@ -20,7 +20,7 @@ class Start extends Screen {
         new Button(this.name, "start", 3, 1.6, 50, 250, "[S] | START");
         new Button(this.name, "leaderboard", 2, 1.6, 50, 250, "[L] | LEADERBOARD");
         new Button(this.name, "options", 1.5, 1.6, 50, 250, "[O] | OPTIONS");
-        new Sound(this.name, "ambient", "../../assets/sounds/default_ambient.mp3", true);
+        new Sound(this.name, "ambient", "assets/sounds/default_ambient.mp3", true);
         new Animation(this.name, "one", 1);
         new Animation(this.name, "two", 3);
         super.preload();

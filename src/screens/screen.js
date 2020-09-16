@@ -24,7 +24,7 @@ class Screen {
     }
 
     preload() {
-        new Sound(this.name, "transition", "../../assets/sounds/transition_ambient.flac", false);
+        new Sound(this.name, "transition", "assets/sounds/transition_ambient.flac", false);
     }
 
     load() {

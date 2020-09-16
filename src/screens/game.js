@@ -24,7 +24,7 @@ class Game extends Screen {
     }
 
     preload() {
-        new Sound(this.name, "ambient", "../../assets/sounds/game_screen.mp3", true);
+        new Sound(this.name, "ambient", "assets/sounds/game_screen.mp3", true);
         super.preload();
     }
 

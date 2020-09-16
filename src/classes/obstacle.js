@@ -26,7 +26,7 @@ class Obstacle {
             this.velocity.x = -20;
             this.velocity.y = 0;
         };
-        this.img = p5.loadImage('../../assets/obstacles/true/main.png');
+        this.img = p5.loadImage('assets/obstacles/true/main.png');
         data.obstacles.push(this);
     }
 
