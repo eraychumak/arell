@@ -1,5 +1,7 @@
-/* IMPORTS */
-@import url('https://fonts.googleapis.com/css?family=Aldrich');
+@font-face {
+    font-family: 'Aldrich';
+    src: url(assets/fonts/aldrich.ttf);
+}
 
 body {
     margin: 0 0 0 0;

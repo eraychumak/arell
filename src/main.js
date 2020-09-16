@@ -22,7 +22,7 @@ new p5(p5 => {
 
     p5.setup = () => {
         p5.createCanvas(data.canvas.width, data.canvas.height);
-        p5.textFont(p5.loadFont("../assets/fonts/aldrish.ttf"));
+        p5.textFont(p5.loadFont("assets/fonts/aldrich.ttf"));
         new Player(5, 2);
         new Obstacle(1);
         new Obstacle(2);
