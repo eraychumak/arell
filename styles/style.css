@@ -1,0 +1,16 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+body {
+    margin: 0 0 0 0;
+    background: rgb(50, 50, 50);
+}
+
+.game_load {
+    margin: 15% 0 0 0;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    color: rgb(255, 255, 255);
+}
