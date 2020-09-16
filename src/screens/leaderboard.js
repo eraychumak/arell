@@ -17,7 +17,7 @@ class Leaderboard extends Screen {
 
     preload() {
         new Button(this.name, "back", 1.25, 1.4, 50, 200, "[B] - BACK");
-        new Sound(this.name, "ambient", "/assets/sounds/default_ambient.mp3", true);
+        new Sound(this.name, "ambient", "assets/sounds/default_ambient.mp3", true);
         super.preload();
     }
 
